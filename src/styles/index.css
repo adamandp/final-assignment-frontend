@@ -136,3 +136,349 @@
   --font-GeneralSans-Variable: "GeneralSans-Variable";
   --font-GeneralSans-VariableItalic: "GeneralSans-VariableItalic";
 }
+
+@theme {
+  --color-dark-blue-design: #011632;
+  --color-mid-blue-design: #1376f8;
+  --color-sky-blue-design: #25b4f8;
+  --color-light-blue-design: #e6f6fe;
+  --color-secondary-color: #fff;
+  --color-body-text: #3c4959;
+  --color-success: #17bf28;
+  --color-warning: #ec942c;
+  --color-error: #e52323;
+}
+
+.H1Bold {
+  font-family: GeneralSans;
+  font-size: 62px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -1.24px;
+}
+.HeadingH1 {
+  font-family: GeneralSans;
+  font-size: 62px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -1.24px;
+}
+.H1Semibold {
+  font-family: GeneralSans;
+  font-size: 62px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -1.24px;
+}
+.H1Medium {
+  font-family: GeneralSans;
+  font-size: 62px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -1.24px;
+}
+.H1Regular {
+  font-family: GeneralSans;
+  font-size: 62px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -1.24px;
+}
+.H2Bold {
+  font-family: GeneralSans;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+.H2Semibold {
+  font-family: GeneralSans;
+  font-size: 42px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+.H2Regular {
+  font-family: GeneralSans;
+  font-size: 42px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+.H2Medium {
+  font-family: GeneralSans;
+  font-size: 42px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+.HeadingH2 {
+  font-family: GeneralSans;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+.H3Bold {
+  font-family: GeneralSans;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+.H3Semibold {
+  font-family: GeneralSans;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+.H3Medium {
+  font-family: GeneralSans;
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+.H3Regular {
+  font-family: GeneralSans;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+.H4Bold {
+  font-family: GeneralSans;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+.H4Semibold {
+  font-family: GeneralSans;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+.H4Medium {
+  font-family: GeneralSans;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+.H4Regular {
+  font-family: GeneralSans;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+.BodyB1 {
+  font-family: GeneralSans;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: normal;
+}
+.B1Bold {
+  font-family: GeneralSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.27px;
+}
+.B1Semibold {
+  font-family: GeneralSans;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.27px;
+}
+.B1Medium {
+  font-family: GeneralSans;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.27px;
+}
+.BodyB2 {
+  font-family: Archivo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.27px;
+}
+.B1Regular {
+  font-family: GeneralSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.27px;
+}
+.B2Bold {
+  font-family: GeneralSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.24px;
+}
+.B2Semibold {
+  font-family: GeneralSans;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.24px;
+}
+.B2Medium {
+  font-family: GeneralSans;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.24px;
+}
+.BodyB3 {
+  font-family: GeneralSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 2px;
+}
+.B2Regular {
+  font-family: GeneralSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.24px;
+}
+.B3Bold {
+  font-family: GeneralSans;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.28px;
+}
+.B3Semibold {
+  font-family: GeneralSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.28px;
+}
+.B3Medium {
+  font-family: GeneralSans;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.28px;
+}
+.B3Regular {
+  font-family: GeneralSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.28px;
+}
+.B4Bold {
+  font-family: GeneralSans;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.18px;
+}
+.B4Semibold {
+  font-family: GeneralSans;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.18px;
+}
+.B4Medium {
+  font-family: GeneralSans;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.18px;
+}
+.B4Regular {
+  font-family: GeneralSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.18px;
+}
