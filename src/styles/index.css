@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "./fonts.css";
+@import "./spacing.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -149,336 +150,342 @@
   --color-error: #e52323;
 }
 
+@layer components {
+  .H1Bold {
+    @apply font-GeneralSans-Bold
+  }
+}
+
 .H1Bold {
   font-family: GeneralSans;
-  font-size: 62px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: -1.24px;
+  @apply text-c-15-5
 }
 .HeadingH1 {
   font-family: GeneralSans;
-  font-size: 62px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: -1.24px;
+  @apply text-c-15-5
 }
 .H1Semibold {
   font-family: GeneralSans;
-  font-size: 62px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: -1.24px;
+  @apply text-c-15-5
 }
 .H1Medium {
   font-family: GeneralSans;
-  font-size: 62px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: -1.24px;
+  @apply text-c-15-5
 }
 .H1Regular {
   font-family: GeneralSans;
-  font-size: 62px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: -1.24px;
+  @apply text-c-15-5
 }
 .H2Bold {
   font-family: GeneralSans;
-  font-size: 42px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  @apply text-c-10-5
 }
 .H2Semibold {
   font-family: GeneralSans;
-  font-size: 42px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  @apply text-c-10-5
 }
 .H2Regular {
   font-family: GeneralSans;
-  font-size: 42px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  @apply text-c-10-5
 }
 .H2Medium {
   font-family: GeneralSans;
-  font-size: 42px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  @apply text-c-10-5
 }
 .HeadingH2 {
   font-family: GeneralSans;
-  font-size: 40px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  @apply text-c-10
 }
 .H3Bold {
   font-family: GeneralSans;
-  font-size: 36px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  @apply text-c-9
 }
 .H3Semibold {
   font-family: GeneralSans;
-  font-size: 36px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  @apply text-c-9
 }
 .H3Medium {
   font-family: GeneralSans;
-  font-size: 36px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  @apply text-c-9
 }
 .H3Regular {
   font-family: GeneralSans;
-  font-size: 36px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  @apply text-c-9
 }
 .H4Bold {
   font-family: GeneralSans;
-  font-size: 24px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: normal;
+  @apply text-c-6
 }
 .H4Semibold {
   font-family: GeneralSans;
-  font-size: 24px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: normal;
+  @apply text-c-6
 }
 .H4Medium {
   font-family: GeneralSans;
-  font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: normal;
+  @apply text-c-6
 }
 .H4Regular {
   font-family: GeneralSans;
-  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: normal;
+  @apply text-c-6
 }
 .BodyB1 {
   font-family: GeneralSans;
-  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: normal;
+  @apply text-c-6
 }
 .B1Bold {
   font-family: GeneralSans;
-  font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.27px;
+  @apply text-c-4-5
 }
 .B1Semibold {
   font-family: GeneralSans;
-  font-size: 18px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.27px;
+  @apply text-c-4-5
 }
 .B1Medium {
   font-family: GeneralSans;
-  font-size: 18px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.27px;
+  @apply text-c-4-5
 }
 .BodyB2 {
   font-family: Archivo;
-  font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.27px;
+  @apply text-c-4-5;
 }
 .B1Regular {
   font-family: GeneralSans;
-  font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.27px;
+  @apply text-c-4-5;
 }
 .B2Bold {
   font-family: GeneralSans;
-  font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.24px;
+  @apply text-c-4
 }
 .B2Semibold {
   font-family: GeneralSans;
-  font-size: 16px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.24px;
+  @apply text-c-4
 }
 .B2Medium {
   font-family: GeneralSans;
-  font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.24px;
+  @apply text-c-4
 }
 .BodyB3 {
   font-family: GeneralSans;
-  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 2px;
+  @apply text-c-4
 }
 .B2Regular {
   font-family: GeneralSans;
-  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.24px;
+  @apply text-c-4
 }
 .B3Bold {
   font-family: GeneralSans;
-  font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.28px;
+  @apply text-c-3-5
 }
 .B3Semibold {
   font-family: GeneralSans;
-  font-size: 14px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.28px;
+  @apply text-c-3-5
 }
 .B3Medium {
   font-family: GeneralSans;
-  font-size: 14px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.28px;
+  @apply text-c-3-5
 }
 .B3Regular {
   font-family: GeneralSans;
-  font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.28px;
+  @apply text-c-3-5
 }
 .B4Bold {
   font-family: GeneralSans;
-  font-size: 12px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.18px;
+  @apply text-c-3
 }
 .B4Semibold {
   font-family: GeneralSans;
-  font-size: 12px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.18px;
+  @apply text-c-3
 }
 .B4Medium {
   font-family: GeneralSans;
-  font-size: 12px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.18px;
+  @apply text-c-3
 }
 .B4Regular {
   font-family: GeneralSans;
-  font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.55;
   letter-spacing: 0.18px;
+  @apply text-c-3
 }
