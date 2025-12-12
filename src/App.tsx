@@ -2,10 +2,10 @@ import { Button } from "./components/ui/button";
 
 function App() {
   return (
-    <div>
-      <div className="flex min-h-svh flex-col items-center justify-center">
-        <Button>Hello world</Button>
-      </div>
+    <div className="general">
+      <p className="font-GeneralSans-Extralight">hello</p>
+      <p className="font-GeneralSans-">hello</p>
+      <p>hello</p>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "./fonts.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -117,4 +118,21 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@theme {
+  --font-GeneralSans-Extralight: "GeneralSans-Extralight";
+  --font-GeneralSans-ExtralightItalic: "GeneralSans-ExtralightItalic";
+  --font-GeneralSans-Light: "GeneralSans-Light";
+  --font-GeneralSans-LightItalic: "GeneralSans-LightItalic";
+  --font-GeneralSans-Regular: "GeneralSans-Regular";
+  --font-GeneralSans-Italic: "GeneralSans-Italic";
+  --font-GeneralSans-Medium: "GeneralSans-Medium";
+  --font-GeneralSans-MediumItalic: "GeneralSans-MediumItalic";
+  --font-GeneralSans-Semibold: "GeneralSans-Semibold";
+  --font-GeneralSans-SemiboldItalic: "GeneralSans-SemiboldItalic";
+  --font-GeneralSans-Bold: "GeneralSans-Bold";
+  --font-GeneralSans-BoldItalic: "GeneralSans-BoldItalic";
+  --font-GeneralSans-Variable: "GeneralSans-Variable";
+  --font-GeneralSans-VariableItalic: "GeneralSans-VariableItalic";
 }
